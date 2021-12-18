@@ -7,6 +7,6 @@ Just a small flappybird kinda game, but with ASCII characters in console
 ```
 git clone https://github.com/Eessh/consoleBird.git
 cd consoleBird/
-g++ flappyBird.cpp -o flappyBird.exe
-.\flappyBird.exe
+g++ consoleBird.cpp -o consoleBird.exe
+.\consoleBird.exe
 ```
