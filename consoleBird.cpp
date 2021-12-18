@@ -554,9 +554,7 @@ void gameLoop() {
 			else if (c == 100) {
 				bird.dive();
 			}
-			else {
-				return;
-			}
+			return;
 		}
 		if (collisionDetected(bird, pipeSystem, window)) {
 			window.showGameOverMessage();
@@ -589,9 +587,6 @@ int main() {
 		echoControls();
 		getch();
 		main();
-	}
-	else {
-		return 0;
 	}
 	return 0;
 }
